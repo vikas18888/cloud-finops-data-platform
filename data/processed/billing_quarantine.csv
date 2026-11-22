@@ -1,0 +1,398 @@
+line_item_id,usage_date,account_id,region,service,usage_type,unit,resource_id,usage_quantity,unblended_cost,tags,tag_team,tag_env,category,reject_reason
+li-0004341,2026-09-03,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0013,19.094,-999.0,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Compute,negative_cost
+li-0009939,2026-10-18,111111111111,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,1608.01,68.0886,"{""env"": ""prod""}",,prod,Compute,missing_required_field
+li-0007593,2026-09-29,222222222222,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0009,20.064,,"{""team"": ""checkout""}",checkout,,Compute,missing_required_field
+li-0010008,2026-10-18,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,65.243,7.7791,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0004250,2026-09-03,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,562.318,54.5782,,,,Managed Services,missing_required_field
+li-0004371,2026-09-04,111111111111,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0003,122.062,,,,,Storage,missing_required_field
+li-0002675,2026-08-21,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0039,129.578,-999.0,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,negative_cost
+li-0010233,2026-10-20,222222222222,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0030,23.322,3.7601,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Compute,missing_required_field
+li-0002571,2026-08-20,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0003,122.01,,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0005364,2026-09-11,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,593.713,36.1168,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0003409,2026-08-27,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0018,169.161,,"{""env"": ""dev""}",,dev,Managed Services,missing_required_field
+li-0011026,2026-10-26,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,10.897,1.7846,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0006584,2026-09-21,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0004,108.315,12.5748,"{""env"": ""dev""}",,dev,Compute,missing_required_field
+li-0005885,2026-09-16,111111111111,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0033,97.338,7.2365,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0000992,2026-08-08,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0030,38.606,1.3988,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Networking,missing_required_field
+li-0003332,2026-08-26,333333333333,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0017,46.121,8.0017,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0006034,2026-09-17,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0002,286.198,14.3451,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Managed Services,missing_required_field
+li-0009356,2026-10-13,222222222222,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,378.023,15.7248,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0002536,2026-08-20,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0019,59.753,,"{""team"": ""platform""}",platform,,Compute,missing_required_field
+li-0002025,2026-08-16,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0009,8.77,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,missing_required_field
+li-0010489,2026-10-22,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0036,173.003,7.4464,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Networking,missing_required_field
+li-0005616,2026-09-13,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0029,16.339,,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0008333,2026-10-05,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0023,18.673,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,missing_required_field
+li-0006420,2026-09-20,111111111111,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,38.561,5.5601,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Storage,missing_required_field
+li-0005842,2026-09-15,333333333333,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0019,78.425,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,negative_cost
+li-0009033,2026-10-11,111111111111,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,,659.772,52.5473,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0003398,2026-08-27,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,35.678,3.1867,"{""team"": ""search""}",search,,Managed Services,missing_required_field
+li-0004601,2026-09-05,333333333333,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0028,35.42,,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Managed Services,missing_required_field
+li-0002807,2026-08-22,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0026,88.769,5.2944,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,missing_required_field
+li-0001945,2026-08-16,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0035,400.322,15.2866,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Storage,missing_required_field
+li-0002157,2026-08-17,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0004,10.866,-999.0,"{""env"": ""staging""}",,staging,Managed Services,negative_cost
+li-0008089,2026-10-03,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0017,8.023,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0009657,2026-10-15,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0031,125.938,14.0521,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0004946,2026-09-08,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0019,51.291,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0005852,2026-09-15,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0006,411.14,-999.0,"{""team"": ""checkout""}",checkout,,Managed Services,negative_cost
+li-0007447,2026-09-28,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0011,204.381,22.5554,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0004568,2026-09-05,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0036,35.554,-999.0,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,negative_cost
+li-0009395,2026-10-13,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,162.029,10.842,"{""team"": ""platform""}",platform,,Storage,missing_required_field
+li-0001667,2026-08-13,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0037,240.001,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0004693,2026-09-06,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,138.391,6.6367,"{""env"": ""dev""}",,dev,Storage,missing_required_field
+li-0000897,2026-08-07,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,25.673,4.6148,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0004523,2026-09-05,222222222222,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0007,8.331,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0003456,2026-08-27,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,58.956,9.2439,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,missing_required_field
+li-0010853,2026-10-25,111111111111,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,51.312,8.0052,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,missing_required_field
+li-0008867,2026-10-09,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,87.842,7.9604,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0003926,2026-08-31,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0040,93.71,,,,,Storage,missing_required_field
+li-0000916,2026-08-08,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0034,66.301,8.7726,"{""team"": ""platform""}",platform,,Networking,missing_required_field
+li-0008280,2026-10-05,111111111111,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0036,358.07,-999.0,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Storage,negative_cost
+li-0005715,2026-09-14,222222222222,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0007,109.38,9.4136,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0001173,2026-08-10,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0040,203.586,17.5626,"{""team"": ""ml""}",ml,,Networking,missing_required_field
+li-0007131,2026-09-25,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0021,59.063,6.5942,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0006801,2026-09-23,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,159.556,14.9225,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0009546,2026-10-14,333333333333,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0001,35.935,5.0999,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0004748,2026-09-07,111111111111,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0026,77.294,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0000516,2026-08-04,333333333333,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0020,197.04,9.5793,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0003203,2026-08-25,333333333333,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0034,136.353,-999.0,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Compute,negative_cost
+li-0009461,2026-10-14,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0034,51.021,8.4097,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0003167,2026-08-25,222222222222,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0010,40.797,7.1514,"{""team"": ""search""}",search,,Managed Services,missing_required_field
+li-0007930,2026-10-02,111111111111,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,34.333,6.2179,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Compute,missing_required_field
+li-0005376,2026-09-12,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0034,514.033,56.1187,,,,Compute,missing_required_field
+li-0006855,2026-09-23,333333333333,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,44.07,6.0409,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,missing_required_field
+li-0003769,2026-08-30,222222222222,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,134.238,8.2646,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Managed Services,missing_required_field
+li-0007309,2026-09-27,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0016,83.867,,"{""env"": ""dev""}",,dev,Storage,missing_required_field
+li-0006822,2026-09-23,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0001,26.892,,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,missing_required_field
+li-0005589,2026-09-13,333333333333,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0009,90.771,-999.0,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,negative_cost
+li-0009017,2026-10-10,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,244.117,7.6358,,,,Managed Services,missing_required_field
+li-0003341,2026-08-26,333333333333,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0008,83.565,-999.0,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,negative_cost
+li-0000200,2026-08-02,222222222222,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0014,88.099,-999.0,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,negative_cost
+li-0000375,2026-08-03,333333333333,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0037,224.433,31.7331,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0003361,2026-08-27,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0007,142.17,-999.0,"{""team"": ""search""}",search,,Compute,negative_cost
+li-0001522,2026-08-12,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0014,168.469,10.0264,"{""env"": ""prod""}",,prod,Networking,missing_required_field
+li-0009455,2026-10-14,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0013,244.835,-999.0,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,negative_cost
+li-0007854,2026-10-01,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0006,22.324,-999.0,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Storage,negative_cost
+li-0004551,2026-09-05,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0020,33.782,-999.0,"{""team"": ""platform""}",platform,,Storage,negative_cost
+li-0005178,2026-09-10,222222222222,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,17.027,3.2688,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0002401,2026-08-19,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,10.239,1.3693,"{""env"": ""prod""}",,prod,Compute,missing_required_field
+li-0008760,2026-10-08,333333333333,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,120.994,6.2952,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Networking,missing_required_field
+li-0005798,2026-09-15,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0020,44.965,6.6393,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0008098,2026-10-03,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0016,22.117,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,missing_required_field
+li-0010322,2026-10-21,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0039,96.221,15.498,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0008762,2026-10-08,333333333333,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,157.02,26.5259,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0008228,2026-10-04,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,14.409,1.5729,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0010809,2026-10-24,333333333333,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0004,126.131,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0009831,2026-10-17,111111111111,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,154.501,6.4306,"{""env"": ""dev""}",,dev,Storage,missing_required_field
+li-0007720,2026-09-30,222222222222,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0035,219.042,,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0008982,2026-10-10,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,55.929,7.506,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0010742,2026-10-24,222222222222,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0034,143.186,,"{""env"": ""dev""}",,dev,Storage,missing_required_field
+li-0000722,2026-08-06,222222222222,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0034,22.841,3.4837,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0008592,2026-10-07,222222222222,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,206.473,4.2965,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0000243,2026-08-02,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,57.146,4.7544,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0005652,2026-09-14,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,91.066,12.5113,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,missing_required_field
+li-0008708,2026-10-08,222222222222,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0025,179.985,3.6311,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0001356,2026-08-11,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0019,41.266,4.3032,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Networking,missing_required_field
+li-0003434,2026-08-27,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0040,112.601,9.0533,"{""team"": ""ml""}",ml,,Networking,missing_required_field
+li-0005292,2026-09-11,222222222222,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,,449.761,16.0207,"{""env"": ""staging""}",,staging,Compute,missing_required_field
+li-0002831,2026-08-22,333333333333,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0003,35.239,,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Storage,missing_required_field
+li-0004054,2026-09-01,333333333333,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0032,64.221,-999.0,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Compute,negative_cost
+li-0005771,2026-09-15,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0023,96.363,,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0009591,2026-10-15,111111111111,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,404.807,31.4015,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0003664,2026-08-29,222222222222,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0032,35.554,,"{""team"": ""checkout""}",checkout,,Storage,missing_required_field
+li-0009959,2026-10-18,111111111111,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0036,59.84,6.1597,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,missing_required_field
+li-0001057,2026-08-09,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,131.71,14.3528,"{""team"": ""checkout""}",checkout,,Storage,missing_required_field
+li-0007356,2026-09-27,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0031,9.682,-999.0,,,,Storage,negative_cost
+li-0002694,2026-08-21,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0028,257.542,,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0002941,2026-08-23,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,475.104,38.6481,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0003198,2026-08-25,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,446.813,40.9314,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0005515,2026-09-13,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0021,476.276,58.7448,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0010272,2026-10-20,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0038,408.819,15.1264,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0007081,2026-09-25,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,,69.371,11.6104,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0004208,2026-09-02,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0039,15.122,-999.0,"{""env"": ""prod""}",,prod,Compute,negative_cost
+li-0006446,2026-09-20,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0001,92.158,16.9822,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,missing_required_field
+li-0009757,2026-10-16,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0035,417.582,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,negative_cost
+li-0003390,2026-08-27,222222222222,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0024,247.583,-999.0,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,negative_cost
+li-0010520,2026-10-22,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0017,102.09,-999.0,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,negative_cost
+li-0003493,2026-08-28,111111111111,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0006,671.986,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0004092,2026-09-02,111111111111,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0008,1156.273,,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,missing_required_field
+li-0008471,2026-10-06,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0036,441.254,,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0010081,2026-10-19,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0023,62.915,11.1307,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Networking,missing_required_field
+li-0011027,2026-10-26,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0011,13.273,,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0003286,2026-08-26,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,,77.227,8.9762,"{""env"": ""staging""}",,staging,Compute,missing_required_field
+li-0002924,2026-08-23,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0016,8.729,1.1884,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,missing_required_field
+li-0007168,2026-09-26,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0012,46.596,-999.0,"{""team"": ""platform""}",platform,,Managed Services,negative_cost
+li-0006425,2026-09-20,111111111111,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0034,184.86,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0009274,2026-10-12,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,273.361,9.1725,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0010511,2026-10-22,333333333333,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0012,480.84,20.7875,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Storage,missing_required_field
+li-0003742,2026-08-30,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,124.667,9.8122,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0003175,2026-08-25,333333333333,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,72.058,13.0718,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0007603,2026-09-29,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0005,74.313,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Managed Services,negative_cost
+li-0011197,2026-10-28,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0030,318.313,,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0010266,2026-10-20,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,412.71,,"{""team"": ""platform""}",platform,,Compute,missing_required_field
+li-0007604,2026-09-29,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0022,20.6,,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0010617,2026-10-23,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0013,26.559,4.2539,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0002769,2026-08-22,222222222222,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0017,26.861,,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Networking,missing_required_field
+li-0003224,2026-08-26,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,70.941,12.8225,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0001708,2026-08-14,111111111111,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0006,83.499,15.91,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Storage,missing_required_field
+li-0000084,2026-08-01,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0026,18.053,1.1539,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0004165,2026-09-02,222222222222,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0020,14.177,2.535,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0001128,2026-08-09,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0007,700.073,-999.0,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,negative_cost
+li-0008735,2026-10-08,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0013,45.334,-999.0,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,negative_cost
+li-0003572,2026-08-28,333333333333,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0026,244.03,25.8979,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0005451,2026-09-12,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0038,8.722,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,negative_cost
+li-0009095,2026-10-11,222222222222,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0025,25.539,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0010410,2026-10-21,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,45.41,7.3408,"{""team"": ""checkout""}",checkout,,Storage,missing_required_field
+li-0006391,2026-09-20,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0020,166.201,16.3081,,,,Storage,missing_required_field
+li-0002811,2026-08-22,333333333333,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0015,43.954,4.5842,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0000837,2026-08-07,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0023,155.234,17.5369,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0006169,2026-09-18,111111111111,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0039,267.29,,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0002870,2026-08-23,111111111111,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0005,163.288,,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Compute,missing_required_field
+li-0003171,2026-08-25,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0013,382.569,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,negative_cost
+li-0003151,2026-08-25,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0015,34.243,,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Networking,missing_required_field
+li-0005267,2026-09-11,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0031,310.321,30.532,"{""team"": ""checkout""}",checkout,,Storage,missing_required_field
+li-0010149,2026-10-19,333333333333,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0004,118.511,21.0333,,,,Storage,missing_required_field
+li-0001186,2026-08-10,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0016,687.997,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Storage,missing_required_field
+li-0010100,2026-10-19,222222222222,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0035,30.574,,,,,Compute,missing_required_field
+li-0003774,2026-08-30,222222222222,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0031,315.012,,,,,Compute,missing_required_field
+li-0011316,2026-10-29,111111111111,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0031,172.174,-999.0,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Networking,negative_cost
+li-0004088,2026-09-02,111111111111,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,633.826,13.5028,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0010934,2026-10-25,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0015,18.89,,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Compute,missing_required_field
+li-0008279,2026-10-05,111111111111,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0017,88.027,-999.0,"{""team"": ""platform""}",platform,,Compute,negative_cost
+li-0005107,2026-09-09,333333333333,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0005,15.431,2.8547,"{""env"": ""dev""}",,dev,Compute,missing_required_field
+li-0007066,2026-09-25,222222222222,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0022,128.931,17.0911,,,,Managed Services,missing_required_field
+li-0007968,2026-10-02,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0032,52.388,,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0007317,2026-09-27,111111111111,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0005,144.956,,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Managed Services,missing_required_field
+li-0010783,2026-10-24,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0036,11.061,-999.0,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,negative_cost
+li-0005353,2026-09-11,333333333333,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0017,107.547,7.4895,,,,Compute,missing_required_field
+li-0010665,2026-10-23,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0016,570.239,-999.0,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,negative_cost
+li-0003891,2026-08-31,222222222222,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0005,13.262,,,,,Compute,missing_required_field
+li-0001565,2026-08-13,111111111111,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0008,306.228,-999.0,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,negative_cost
+li-0010737,2026-10-24,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0033,42.566,6.6891,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0005513,2026-09-13,111111111111,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0007,1209.649,,"{""team"": ""search""}",search,,Managed Services,missing_required_field
+li-0000947,2026-08-08,111111111111,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0018,122.749,,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,missing_required_field
+li-0003708,2026-08-29,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0039,37.974,,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Storage,missing_required_field
+li-0007301,2026-09-27,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0017,244.041,,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,missing_required_field
+li-0003158,2026-08-25,222222222222,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0010,9.499,1.4671,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0001052,2026-08-09,111111111111,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0016,399.933,,"{""team"": ""platform""}",platform,,Compute,missing_required_field
+li-0010207,2026-10-20,111111111111,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0014,288.701,11.8601,,,,Storage,missing_required_field
+li-0009402,2026-10-13,333333333333,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0031,1116.542,-999.0,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Compute,negative_cost
+li-0003239,2026-08-26,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0014,986.42,41.1232,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Compute,missing_required_field
+li-0008778,2026-10-09,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0038,101.65,,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0007270,2026-09-26,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0007,49.857,-999.0,,,,Storage,negative_cost
+li-0001306,2026-08-11,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0030,142.145,20.6306,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,missing_required_field
+li-0010143,2026-10-19,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,95.594,7.5254,,,,Managed Services,missing_required_field
+li-0000526,2026-08-04,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0040,44.456,6.3831,"{""team"": ""search""}",search,,Networking,missing_required_field
+li-0007466,2026-09-28,222222222222,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0012,30.043,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Storage,missing_required_field
+li-0002853,2026-08-23,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0034,650.89,58.7911,"{""env"": ""dev""}",,dev,Compute,missing_required_field
+li-0003448,2026-08-27,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,88.946,13.0531,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0010431,2026-10-22,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0010,462.481,80.6967,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0001669,2026-08-13,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0023,46.528,-999.0,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,negative_cost
+li-0000194,2026-08-02,222222222222,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0008,141.375,,"{""team"": ""ml""}",ml,,Storage,missing_required_field
+li-0005286,2026-09-11,111111111111,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,52.957,8.4247,"{""env"": ""staging""}",,staging,Networking,missing_required_field
+li-0004034,2026-09-01,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0034,234.646,,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Networking,missing_required_field
+li-0010067,2026-10-19,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,714.455,75.641,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0001578,2026-08-13,111111111111,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,474.424,19.8047,,,,Networking,missing_required_field
+li-0003033,2026-08-24,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0013,148.712,-999.0,"{""team"": ""checkout""}",checkout,,Compute,negative_cost
+li-0005450,2026-09-12,222222222222,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,15.813,2.9523,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Storage,missing_required_field
+li-0001922,2026-08-15,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0015,303.605,-999.0,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,negative_cost
+li-0006530,2026-09-21,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0005,593.606,,"{""team"": ""platform""}",platform,,Storage,missing_required_field
+li-0006249,2026-09-18,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0013,61.357,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Managed Services,missing_required_field
+li-0007625,2026-09-29,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0039,62.602,10.1985,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0008291,2026-10-05,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,240.051,29.9347,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0002051,2026-08-16,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,56.29,8.643,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0008641,2026-10-07,333333333333,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,90.4,8.959,"{""env"": ""staging""}",,staging,Networking,missing_required_field
+li-0011058,2026-10-26,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0019,175.775,7.1749,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Networking,missing_required_field
+li-0010371,2026-10-21,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0023,22.571,-999.0,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,negative_cost
+li-0009325,2026-10-13,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0010,313.124,13.7852,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Storage,missing_required_field
+li-0007238,2026-09-26,333333333333,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,30.363,4.9898,"{""team"": ""checkout""}",checkout,,Compute,missing_required_field
+li-0000369,2026-08-03,333333333333,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0012,67.386,6.4164,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,missing_required_field
+li-0006720,2026-09-22,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0033,83.563,,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0005374,2026-09-11,333333333333,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0011,27.569,4.9275,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0004684,2026-09-06,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,,191.158,27.141,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0003191,2026-08-25,333333333333,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0013,288.4,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0000398,2026-08-04,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0010,777.887,54.1541,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Compute,missing_required_field
+li-0011134,2026-10-27,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0030,35.591,,"{""team"": ""ml""}",ml,,Managed Services,missing_required_field
+li-0010832,2026-10-25,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0019,112.775,10.5225,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0005951,2026-09-16,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0033,163.617,-999.0,"{""env"": ""staging""}",,staging,Networking,negative_cost
+li-0009279,2026-10-12,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,38.613,3.4412,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Compute,missing_required_field
+li-0004073,2026-09-01,333333333333,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0030,50.31,,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0000112,2026-08-01,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,211.666,28.4491,"{""team"": ""checkout""}",checkout,,Managed Services,missing_required_field
+li-0009165,2026-10-12,111111111111,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,336.405,28.6175,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0006753,2026-09-22,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0016,28.036,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0009492,2026-10-14,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0016,62.793,10.4198,"{""env"": ""dev""}",,dev,Compute,missing_required_field
+li-0010210,2026-10-20,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0007,72.665,12.0146,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Networking,missing_required_field
+li-0006023,2026-09-17,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0007,519.064,74.478,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,missing_required_field
+li-0000338,2026-08-03,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0024,132.147,3.7191,"{""team"": ""ml""}",ml,,Managed Services,missing_required_field
+li-0003357,2026-08-27,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,220.503,9.3052,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0006482,2026-09-20,333333333333,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,186.716,23.6513,"{""team"": ""checkout""}",checkout,,Managed Services,missing_required_field
+li-0010362,2026-10-21,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0024,46.969,5.0786,"{""team"": ""search""}",search,,Managed Services,missing_required_field
+li-0002480,2026-08-20,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0008,367.427,29.2921,"{""team"": ""checkout""}",checkout,,Storage,missing_required_field
+li-0003342,2026-08-27,111111111111,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0035,436.834,,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Compute,missing_required_field
+li-0007740,2026-09-30,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0024,504.944,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0004324,2026-09-03,333333333333,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,1433.416,31.3736,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0007889,2026-10-01,333333333333,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0019,524.402,24.6344,"{""env"": ""prod""}",,prod,Compute,missing_required_field
+li-0000172,2026-08-02,111111111111,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,177.539,15.5296,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,missing_required_field
+li-0010771,2026-10-24,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0024,74.275,,"{""team"": ""checkout""}",checkout,,Compute,missing_required_field
+li-0002115,2026-08-17,222222222222,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0005,85.42,6.738,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Storage,missing_required_field
+li-0004769,2026-09-07,111111111111,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0031,200.966,32.7182,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0002711,2026-08-22,111111111111,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,,1242.666,44.3678,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Compute,missing_required_field
+li-0004634,2026-09-06,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0032,77.938,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0003956,2026-08-31,333333333333,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0017,515.626,39.2753,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0000374,2026-08-03,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0030,99.423,13.5902,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Networking,missing_required_field
+li-0008743,2026-10-08,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,252.274,37.115,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0001446,2026-08-12,111111111111,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0032,92.176,10.2824,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0009703,2026-10-16,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,187.418,17.7354,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Managed Services,missing_required_field
+li-0001382,2026-08-11,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0031,57.329,,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,missing_required_field
+li-0001255,2026-08-10,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0035,58.11,,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0000281,2026-08-03,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,84.964,8.1199,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0009082,2026-10-11,222222222222,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,10.303,1.6733,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Compute,missing_required_field
+li-0001501,2026-08-12,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,10.177,1.2406,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Compute,missing_required_field
+li-0001375,2026-08-11,222222222222,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0003,17.596,1.896,"{""env"": ""dev""}",,dev,Managed Services,missing_required_field
+li-0006321,2026-09-19,222222222222,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0027,221.29,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,missing_required_field
+li-0009584,2026-10-15,111111111111,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0036,140.425,13.4423,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0001630,2026-08-13,222222222222,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,,90.894,9.5604,"{""env"": ""dev""}",,dev,Compute,missing_required_field
+li-0007290,2026-09-27,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0019,90.758,,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0001008,2026-08-08,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0019,77.5,8.1179,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Networking,missing_required_field
+li-0011138,2026-10-27,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,21.091,1.6257,"{""team"": ""search""}",search,,Compute,missing_required_field
+li-0001262,2026-08-10,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0021,349.191,10.8446,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Storage,missing_required_field
+li-0002945,2026-08-23,333333333333,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0033,112.667,14.0742,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,missing_required_field
+li-0001779,2026-08-14,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,62.487,9.9118,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Storage,missing_required_field
+li-0002056,2026-08-16,333333333333,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0014,64.139,-999.0,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Managed Services,negative_cost
+li-0007135,2026-09-25,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0021,40.923,7.1797,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Networking,missing_required_field
+li-0003832,2026-08-30,333333333333,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0037,79.073,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Compute,missing_required_field
+li-0009655,2026-10-15,333333333333,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0009,39.531,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0003110,2026-08-25,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,81.269,12.8762,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Managed Services,missing_required_field
+li-0004558,2026-09-05,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,35.708,4.8338,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0000415,2026-08-04,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,43.652,8.0581,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,missing_required_field
+li-0004172,2026-09-02,333333333333,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0026,455.523,47.73,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,missing_required_field
+li-0001494,2026-08-12,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0012,52.0,,,,,Managed Services,missing_required_field
+li-0008964,2026-10-10,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0005,122.892,-999.0,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Networking,negative_cost
+li-0004630,2026-09-06,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,81.26,10.4794,"{""env"": ""dev""}",,dev,Managed Services,missing_required_field
+li-0009864,2026-10-17,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,27.084,4.5937,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Networking,missing_required_field
+li-0005985,2026-09-16,333333333333,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0023,45.049,,"{""team"": ""ml""}",ml,,Compute,missing_required_field
+li-0010435,2026-10-22,111111111111,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0036,305.05,12.6892,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Compute,missing_required_field
+li-0002783,2026-08-22,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0016,36.803,3.7499,"{""team"": ""ml""}",ml,,Networking,missing_required_field
+li-0004272,2026-09-03,222222222222,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0039,12.963,,"{""team"": ""ml"", ""env"": ""prod""}",ml,prod,Compute,missing_required_field
+li-0000190,2026-08-02,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,17.484,1.5097,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0009897,2026-10-17,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,214.822,35.9752,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0006995,2026-09-24,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0039,585.994,,"{""env"": ""dev""}",,dev,Managed Services,missing_required_field
+li-0010559,2026-10-23,111111111111,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0010,247.719,-999.0,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,negative_cost
+li-0005359,2026-09-11,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,298.542,10.0268,"{""team"": ""search""}",search,,Storage,missing_required_field
+li-0009394,2026-10-13,333333333333,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0010,730.198,-999.0,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,negative_cost
+li-0003452,2026-08-27,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0001,152.465,10.6631,"{""env"": ""prod""}",,prod,Networking,missing_required_field
+li-0005302,2026-09-11,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,56.56,3.43,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Managed Services,missing_required_field
+li-0006469,2026-09-20,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0012,315.84,-999.0,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Compute,negative_cost
+li-0003037,2026-08-24,222222222222,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0019,29.063,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0001531,2026-08-12,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0018,205.672,11.1712,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Storage,missing_required_field
+li-0001221,2026-08-10,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0033,39.971,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,missing_required_field
+li-0001354,2026-08-11,222222222222,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0028,56.05,,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0008929,2026-10-10,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,59.549,9.1289,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0006861,2026-09-23,333333333333,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,1601.691,40.0165,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Managed Services,missing_required_field
+li-0005703,2026-09-14,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0010,39.843,,,,,Networking,missing_required_field
+li-0009043,2026-10-11,111111111111,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,963.837,37.7864,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0005494,2026-09-12,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0037,26.558,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0005802,2026-09-15,222222222222,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0024,17.316,2.8047,"{""env"": ""prod""}",,prod,Compute,missing_required_field
+li-0006308,2026-09-19,111111111111,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,165.164,5.2023,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0000419,2026-08-04,111111111111,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0024,196.456,,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0011030,2026-10-26,333333333333,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,201.55,21.4731,"{""env"": ""prod""}",,prod,Storage,missing_required_field
+li-0001416,2026-08-11,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0024,51.629,5.2546,"{""env"": ""staging""}",,staging,Networking,missing_required_field
+li-0007166,2026-09-26,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,221.664,38.685,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,missing_required_field
+li-0003280,2026-08-26,222222222222,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0012,68.374,,"{""team"": ""platform""}",platform,,Networking,missing_required_field
+li-0006237,2026-09-18,333333333333,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0002,542.609,53.8431,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Compute,missing_required_field
+li-0001165,2026-08-10,111111111111,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0022,566.577,,"{""team"": ""checkout""}",checkout,,Compute,missing_required_field
+li-0008586,2026-10-07,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0003,26.654,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0007412,2026-09-28,111111111111,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0008,90.658,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0006477,2026-09-20,333333333333,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0009,248.301,8.3198,"{""team"": ""platform""}",platform,,Storage,missing_required_field
+li-0010584,2026-10-23,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0019,144.386,27.7091,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Networking,missing_required_field
+li-0004066,2026-09-01,333333333333,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0036,716.26,-999.0,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Networking,negative_cost
+li-0009116,2026-10-11,222222222222,eu-west-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0014,45.597,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0000339,2026-08-03,222222222222,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0024,22.132,,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0007741,2026-09-30,333333333333,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,,767.698,40.5745,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Compute,missing_required_field
+li-0010620,2026-10-23,222222222222,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,394.745,20.716,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Compute,missing_required_field
+li-0003651,2026-08-29,222222222222,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,86.834,4.879,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Storage,missing_required_field
+li-0006106,2026-09-17,333333333333,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0027,725.875,-999.0,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,negative_cost
+li-0006278,2026-09-19,111111111111,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0012,232.012,44.6576,"{""team"": ""ml""}",ml,,Managed Services,missing_required_field
+li-0004503,2026-09-05,111111111111,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0020,301.918,13.6528,"{""team"": ""ml""}",ml,,Storage,missing_required_field
+li-0000527,2026-08-04,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0009,44.688,6.9463,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Networking,missing_required_field
+li-0002089,2026-08-17,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,416.407,25.5936,"{""team"": ""ml""}",ml,,Storage,missing_required_field
+li-0001806,2026-08-14,333333333333,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0002,140.354,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Networking,missing_required_field
+li-0007388,2026-09-27,333333333333,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0034,179.504,,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Networking,missing_required_field
+li-0008494,2026-10-06,333333333333,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0031,66.821,-999.0,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Storage,negative_cost
+li-0000545,2026-08-05,111111111111,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,151.728,13.1907,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Networking,missing_required_field
+li-0007379,2026-09-27,333333333333,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0037,171.256,,"{""team"": ""platform""}",platform,,Compute,missing_required_field
+li-0003796,2026-08-30,222222222222,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0013,21.953,1.3860000000000001,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Storage,missing_required_field
+li-0000368,2026-08-03,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0019,391.429,-999.0,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,negative_cost
+li-0007457,2026-09-28,222222222222,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0020,29.899,-999.0,,,,Managed Services,negative_cost
+li-0011168,2026-10-27,333333333333,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0025,898.416,40.9274,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0010918,2026-10-25,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,43.32,7.1923,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Managed Services,missing_required_field
+li-0008413,2026-10-06,111111111111,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0034,677.855,65.27590000000001,"{""team"": ""checkout""}",checkout,,Managed Services,missing_required_field
+li-0008442,2026-10-06,222222222222,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,188.426,5.1058,,,,Networking,missing_required_field
+li-0004482,2026-09-04,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0025,104.57,,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Storage,missing_required_field
+li-0006057,2026-09-17,222222222222,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0038,24.939,-999.0,,,,Storage,negative_cost
+li-0002635,2026-08-21,222222222222,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0016,303.637,11.0933,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Managed Services,missing_required_field
+li-0008575,2026-10-07,222222222222,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0007,46.7,-999.0,"{""team"": ""checkout""}",checkout,,Compute,negative_cost
+li-0010977,2026-10-26,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0018,83.945,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0009685,2026-10-16,111111111111,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0005,123.915,19.4219,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Networking,missing_required_field
+li-0009675,2026-10-15,333333333333,,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0020,32.91,4.3962,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,missing_required_field
+li-0004889,2026-09-08,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,637.864,71.7375,"{""team"": ""search""}",search,,Managed Services,missing_required_field
+li-0009840,2026-10-17,222222222222,ap-south-1,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0020,124.325,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Compute,missing_required_field
+li-0002132,2026-08-17,222222222222,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0032,27.03,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Storage,missing_required_field
+li-0008799,2026-10-09,111111111111,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,,50.492,7.7326,,,,Storage,missing_required_field
+li-0005861,2026-09-15,333333333333,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0006,90.507,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Networking,missing_required_field
+li-0007441,2026-09-28,111111111111,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0039,313.374,34.0099,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0007500,2026-09-28,333333333333,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0013,300.596,,"{""team"": ""checkout""}",checkout,,Managed Services,missing_required_field
+li-0000989,2026-08-08,222222222222,,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0030,12.477,2.1134,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Storage,missing_required_field
+li-0009874,2026-10-17,222222222222,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,35.596,3.0646,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Storage,missing_required_field
+li-0002052,2026-08-16,333333333333,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0016,51.89,7.5604,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Networking,missing_required_field
+li-0004708,2026-09-06,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,269.653,26.0633,"{""team"": ""platform"", ""env"": ""dev""}",platform,dev,Managed Services,missing_required_field
+li-0005485,2026-09-12,333333333333,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0001,297.509,,,,,Managed Services,missing_required_field
+li-0009424,2026-10-14,111111111111,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0004,657.936,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0002242,2026-08-18,111111111111,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,280.537,25.1436,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Managed Services,missing_required_field
+li-0009700,2026-10-16,111111111111,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0033,109.198,-999.0,"{""team"": ""search""}",search,,Networking,negative_cost
+li-0010124,2026-10-19,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,56.311,8.8818,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0007872,2026-10-01,333333333333,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0018,50.387,,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0002230,2026-08-18,111111111111,us-east-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0026,356.166,,"{""team"": ""ml""}",ml,,Storage,missing_required_field
+li-0000813,2026-08-07,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0021,132.331,,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0002376,2026-08-19,222222222222,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0021,70.999,-999.0,"{""env"": ""dev""}",,dev,Storage,negative_cost
+li-0006332,2026-09-19,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0032,162.042,4.5014,"{""env"": ""prod""}",,prod,Networking,missing_required_field
+li-0007655,2026-09-29,333333333333,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0036,147.688,24.75,"{""team"": ""checkout""}",checkout,,Managed Services,missing_required_field
+li-0003395,2026-08-27,222222222222,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0037,182.768,,"{""env"": ""prod""}",,prod,Managed Services,missing_required_field
+li-0001301,2026-08-11,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0026,63.588,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Managed Services,missing_required_field
+li-0007496,2026-09-28,333333333333,ap-south-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0012,86.036,,"{""team"": ""platform"", ""env"": ""prod""}",platform,prod,Storage,missing_required_field
+li-0011124,2026-10-27,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0033,262.09,21.9547,"{""env"": ""prod""}",,prod,Compute,missing_required_field
+li-0001631,2026-08-13,222222222222,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0022,6.554,,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Compute,missing_required_field
+li-0006389,2026-09-20,111111111111,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,67.776,7.0179,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0000710,2026-08-06,222222222222,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,96.581,3.9953000000000003,"{""team"": ""platform""}",platform,,Networking,missing_required_field
+li-0003012,2026-08-24,222222222222,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0022,32.699,,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Networking,missing_required_field
+li-0005079,2026-09-09,333333333333,ap-south-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,187.032,18.2114,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Storage,missing_required_field
+li-0009961,2026-10-18,111111111111,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0015,285.79,,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Networking,missing_required_field
+li-0008676,2026-10-08,111111111111,us-east-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,,199.211,15.4945,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0001447,2026-08-12,111111111111,eu-west-1,AmazonEC2,BoxUsage:m5.large,Hrs,,463.85,35.8559,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0009115,2026-10-11,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0014,33.833,,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0008435,2026-10-06,222222222222,,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0026,27.952,2.0531,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Compute,missing_required_field
+li-0001935,2026-08-15,333333333333,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0015,27.308,,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Networking,missing_required_field
+li-0000389,2026-08-03,333333333333,eu-west-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,,39.573,5.9435,"{""team"": ""checkout""}",checkout,,Networking,missing_required_field
+li-0007311,2026-09-27,111111111111,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0001,36.032,5.4412,"{""env"": ""staging""}",,staging,Storage,missing_required_field
+li-0011242,2026-10-28,222222222222,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,48.688,7.7128,"{""team"": ""search"", ""env"": ""prod""}",search,prod,Storage,missing_required_field
+li-0000629,2026-08-05,333333333333,us-east-1,AmazonEC2,BoxUsage:m5.large,Hrs,,376.641,45.2518,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Compute,missing_required_field
+li-0003101,2026-08-25,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,47.858,9.183,"{""team"": ""platform""}",platform,,Compute,missing_required_field
+li-0000683,2026-08-06,111111111111,,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0008,393.34,46.6151,"{""team"": ""platform""}",platform,,Managed Services,missing_required_field
+li-0009693,2026-10-16,111111111111,us-east-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,95.134,10.1948,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Compute,missing_required_field
+li-0007256,2026-09-26,333333333333,us-east-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0020,236.307,,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Networking,missing_required_field
+li-0001827,2026-08-15,111111111111,ap-south-1,AmazonDynamoDB,ReadCapacityUnit-Hrs,RCU-Hrs,ddb-0010,55.123,-999.0,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Managed Services,negative_cost
+li-0003780,2026-08-30,222222222222,,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0019,31.366,2.5075000000000003,"{""team"": ""checkout"", ""env"": ""staging""}",checkout,staging,Storage,missing_required_field
+li-0005810,2026-09-15,222222222222,ap-south-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,rds-0014,459.834,,"{""team"": ""checkout"", ""env"": ""dev""}",checkout,dev,Managed Services,missing_required_field
+li-0005396,2026-09-12,111111111111,us-east-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,,274.487,21.5199,"{""team"": ""platform"", ""env"": ""staging""}",platform,staging,Storage,missing_required_field
+li-0009458,2026-10-14,111111111111,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0012,60.011,,"{""env"": ""dev""}",,dev,Storage,missing_required_field
+li-0009423,2026-10-14,111111111111,ap-south-1,AWSLambda,Lambda-GB-Second,GB-Seconds,lam-0032,63.137,-999.0,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Compute,negative_cost
+li-0006218,2026-09-18,222222222222,,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0007,19.297,2.817,"{""team"": ""ml"", ""env"": ""dev""}",ml,dev,Networking,missing_required_field
+li-0006400,2026-09-20,111111111111,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0024,344.698,60.4589,"{""env"": ""staging""}",,staging,Compute,missing_required_field
+li-0009915,2026-10-17,333333333333,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0033,39.096,,,,,Storage,missing_required_field
+li-0010717,2026-10-24,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,791.408,44.1573,"{""team"": ""checkout"", ""env"": ""prod""}",checkout,prod,Managed Services,missing_required_field
+li-0002239,2026-08-18,111111111111,eu-west-1,AmazonS3,TimedStorage-ByteHrs,GB-Mo,s3-0024,137.559,,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Storage,missing_required_field
+li-0001156,2026-08-09,333333333333,eu-west-1,AWSLambda,Lambda-GB-Second,GB-Seconds,,14.3,1.8087,,,,Compute,missing_required_field
+li-0004136,2026-09-02,222222222222,ap-south-1,AWSDataTransfer,DataTransfer-Out-Bytes,GB,dt-0001,190.507,-999.0,"{""team"": ""search"", ""env"": ""dev""}",search,dev,Networking,negative_cost
+li-0000350,2026-08-03,222222222222,eu-west-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,64.614,8.0789,"{""env"": ""staging""}",,staging,Managed Services,missing_required_field
+li-0008060,2026-10-03,222222222222,,AmazonEC2,BoxUsage:m5.large,Hrs,ec2-0029,144.081,13.3764,"{""team"": ""search"", ""env"": ""staging""}",search,staging,Compute,missing_required_field
+li-0000932,2026-08-08,111111111111,us-east-1,AmazonRDS,InstanceUsage:db.r5.large,Hrs,,1172.864,31.424,"{""team"": ""ml"", ""env"": ""staging""}",ml,staging,Managed Services,missing_required_field
+li-0002405,2026-08-19,222222222222,eu-west-1,AmazonEBS,EBS:VolumeUsage.gp3,GB-Mo,ebs-0008,13.653,-999.0,"{""team"": ""ml""}",ml,,Storage,negative_cost
