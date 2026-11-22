@@ -1,0 +1,26 @@
+{
+  "annualised_spend": 708067.4286166667,
+  "total_90d": 174591.9687,
+  "by_category_90d": {
+    "Compute": 67807.0457,
+    "Managed Services": 57651.269,
+    "Networking": 15587.6985,
+    "Storage": 33545.9555
+  },
+  "waste_removal_annual": 28653.772025,
+  "rate_opt_gross_annual": 94148.1,
+  "rate_opt_net_annual": 90338.15466858246,
+  "headline_saving_annual": 118991.92669358246,
+  "headline_saving_pct": 0.16805168813661428,
+  "k8s_extra_annual": 11230.68,
+  "spike_excess_90d": 1805.7800000000002,
+  "orphaned_90d": 936.3562,
+  "idle_90d": 12257.9149,
+  "rate_pct_by_strategy": {
+    "RI 1-yr": 0.163280174584523,
+    "RI 3-yr": 0.272133624307537,
+    "Savings Plan 1-yr": 0.136066812153769,
+    "Spot": 0.053221420177942,
+    "Blend": 0.216501594762464
+  }
+}
