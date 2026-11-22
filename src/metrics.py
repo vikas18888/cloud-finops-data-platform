@@ -33,6 +33,20 @@ def forecast_variance(daily, train_days=60):
     return d, {"variance_usd": float((t.cost - t.forecast).sum()), "variance_pct": float((t.cost.sum() / t.forecast.sum() - 1)),
                "mape": float((abs(t.cost - t.forecast) / t.cost).mean())}
 
+def forecast_figure(fc):
+    """Matplotlib figure of actual vs linear forecast (renders reliably in Streamlit via st.pyplot)."""
+    import matplotlib
+    import matplotlib.pyplot as plt
+    fig, ax = plt.subplots(figsize=(11, 3.8))
+    ax.plot(fc.date, fc.cost, color="#1F6F78", lw=1.8, label="Actual daily cost")
+    ax.plot(fc.date, fc.forecast, color="#F2A541", lw=1.8, ls="--", label="Linear forecast (fit on first 60 days)")
+    ax.axvline(fc.date.iloc[60], color="#999999", lw=0.8, ls=":")
+    ax.set_ylim(0, fc.cost.max() * 1.1); ax.set_ylabel("USD per day")
+    ax.legend(frameon=False, loc="upper left"); ax.spines[["top", "right"]].set_visible(False)
+    fig.autofmt_xdate(); fig.tight_layout()
+    return fig
+
+
 def commitment_coverage(db=DB, coverage_target=0.80):
     """MODELLED coverage (the data has no purchased RIs): committed baseline / EC2+RDS spend if the Day 11 recommendation is bought."""
     d = _q("SELECT s.service_name, d.full_date, SUM(f.unblended_cost) AS cost FROM fact_cost f JOIN dim_service s USING(service_key) JOIN dim_date d USING(date_key) WHERE s.service_name IN ('AmazonEC2','AmazonRDS') GROUP BY 1,2", db)
