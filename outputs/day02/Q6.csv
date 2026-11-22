@@ -1,0 +1,11 @@
+rnk,service_name,resource_id,cost,cumulative_pct
+1,AmazonEC2,ec2-0005,2033.06,1.2
+2,AmazonEC2,ec2-0030,1893.05,2.2
+3,AmazonEC2,ec2-0015,1885.39,3.3
+4,AmazonEC2,ec2-0036,1877.51,4.4
+5,AmazonEC2,ec2-0019,1810.86,5.4
+6,AmazonEC2,ec2-0018,1806.57,6.5
+7,AmazonEC2,ec2-0006,1788.34,7.5
+8,AmazonEC2,ec2-0002,1751.3,8.5
+9,AmazonEC2,ec2-0037,1729.63,9.5
+10,AmazonEC2,ec2-0038,1677.97,10.5

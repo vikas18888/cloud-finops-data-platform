@@ -1,0 +1,4 @@
+service_name,full_date,cost,trailing_avg,ratio
+AmazonS3,2026-09-17,741.6,218.84,3.39
+AmazonEC2,2026-08-21,1657.73,605.83,2.74
+AWSDataTransfer,2026-10-11,408.19,177.07,2.31

@@ -1,0 +1,8 @@
+service_name,weekday_avg,weekend_avg,weekend_delta_pct
+AmazonEC2,727.23,519.17,-28.6
+AmazonRDS,571.66,407.65,-28.7
+AmazonS3,255.36,173.62,-32.0
+AWSDataTransfer,187.29,138.51,-26.0
+AmazonEBS,154.99,106.52,-31.3
+AmazonDynamoDB,129.44,83.93,-35.2
+AWSLambda,94.43,66.25,-29.8

@@ -1,0 +1,13 @@
+year_month,category,cost,mom_pct
+2026-08,Compute,21929.9,
+2026-09,Compute,22719.26,3.6
+2026-10,Compute,23157.88,1.9
+2026-08,Managed Services,17285.09,
+2026-09,Managed Services,19079.77,10.4
+2026-10,Managed Services,21286.4,11.6
+2026-08,Networking,4685.35,
+2026-09,Networking,5278.28,12.7
+2026-10,Networking,5624.07,6.6
+2026-08,Storage,9973.98,
+2026-09,Storage,11676.6,17.1
+2026-10,Storage,11895.38,1.9
