@@ -1,0 +1,25 @@
+# Day 17: comment the monthly cost change on every pull request that touches terraform/.
+# Setup: create a free API key at https://www.infracost.io and save it as the repo secret INFRACOST_API_KEY.
+name: infracost
+on:
+  pull_request:
+    paths: ["terraform/**"]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  infracost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.event.pull_request.base.ref }}", path: base }
+      - uses: actions/checkout@v4
+        with: { path: head }
+      - uses: infracost/actions/setup@v3
+        with: { api-key: "${{ secrets.INFRACOST_API_KEY }}" }
+      - name: Baseline cost (main branch)
+        run: infracost breakdown --path=base/terraform --format=json --out-file=/tmp/base.json
+      - name: Cost of this PR
+        run: infracost diff --path=head/terraform --compare-to=/tmp/base.json --format=json --out-file=/tmp/diff.json
+      - name: Post PR comment
+        run: infracost comment github --path=/tmp/diff.json --repo=$GITHUB_REPOSITORY --github-token=${{ github.token }} --pull-request=${{ github.event.pull_request.number }} --behavior=update
