@@ -1,0 +1,7 @@
+asset_id,asset_name,asset_type,purchase_month,cost,salvage_value,life_years,method
+A001,On-prem database server,Hardware,2025-01,48000,4800,5,straight_line
+A002,Edge gateway servers (x4),Hardware,2025-07,32000,3200,4,straight_line
+A003,Network switches,Hardware,2026-02,18000,1800,5,straight_line
+A004,GPU training node,Hardware,2026-05,60000,6000,3,straight_line
+A005,Billing platform (capitalised dev cost),Software,2026-03,90000,0,3,straight_line
+A006,FinOps dashboard (capitalised dev cost),Software,2026-09,36000,0,3,straight_line

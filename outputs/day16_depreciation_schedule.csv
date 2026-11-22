@@ -1,0 +1,277 @@
+asset_id,asset_name,asset_type,period,month_no,depreciation,accumulated_depreciation,net_book_value
+A001,On-prem database server,Hardware,2025-02,1,720.0,720.0,47280.0
+A001,On-prem database server,Hardware,2025-03,2,720.0,1440.0,46560.0
+A001,On-prem database server,Hardware,2025-04,3,720.0,2160.0,45840.0
+A001,On-prem database server,Hardware,2025-05,4,720.0,2880.0,45120.0
+A001,On-prem database server,Hardware,2025-06,5,720.0,3600.0,44400.0
+A001,On-prem database server,Hardware,2025-07,6,720.0,4320.0,43680.0
+A001,On-prem database server,Hardware,2025-08,7,720.0,5040.0,42960.0
+A001,On-prem database server,Hardware,2025-09,8,720.0,5760.0,42240.0
+A001,On-prem database server,Hardware,2025-10,9,720.0,6480.0,41520.0
+A001,On-prem database server,Hardware,2025-11,10,720.0,7200.0,40800.0
+A001,On-prem database server,Hardware,2025-12,11,720.0,7920.0,40080.0
+A001,On-prem database server,Hardware,2026-01,12,720.0,8640.0,39360.0
+A001,On-prem database server,Hardware,2026-02,13,720.0,9360.0,38640.0
+A001,On-prem database server,Hardware,2026-03,14,720.0,10080.0,37920.0
+A001,On-prem database server,Hardware,2026-04,15,720.0,10800.0,37200.0
+A001,On-prem database server,Hardware,2026-05,16,720.0,11520.0,36480.0
+A001,On-prem database server,Hardware,2026-06,17,720.0,12240.0,35760.0
+A001,On-prem database server,Hardware,2026-07,18,720.0,12960.0,35040.0
+A001,On-prem database server,Hardware,2026-08,19,720.0,13680.0,34320.0
+A001,On-prem database server,Hardware,2026-09,20,720.0,14400.0,33600.0
+A001,On-prem database server,Hardware,2026-10,21,720.0,15120.0,32880.0
+A001,On-prem database server,Hardware,2026-11,22,720.0,15840.0,32160.0
+A001,On-prem database server,Hardware,2026-12,23,720.0,16560.0,31440.0
+A001,On-prem database server,Hardware,2027-01,24,720.0,17280.0,30720.0
+A001,On-prem database server,Hardware,2027-02,25,720.0,18000.0,30000.0
+A001,On-prem database server,Hardware,2027-03,26,720.0,18720.0,29280.0
+A001,On-prem database server,Hardware,2027-04,27,720.0,19440.0,28560.0
+A001,On-prem database server,Hardware,2027-05,28,720.0,20160.0,27840.0
+A001,On-prem database server,Hardware,2027-06,29,720.0,20880.0,27120.0
+A001,On-prem database server,Hardware,2027-07,30,720.0,21600.0,26400.0
+A001,On-prem database server,Hardware,2027-08,31,720.0,22320.0,25680.0
+A001,On-prem database server,Hardware,2027-09,32,720.0,23040.0,24960.0
+A001,On-prem database server,Hardware,2027-10,33,720.0,23760.0,24240.0
+A001,On-prem database server,Hardware,2027-11,34,720.0,24480.0,23520.0
+A001,On-prem database server,Hardware,2027-12,35,720.0,25200.0,22800.0
+A001,On-prem database server,Hardware,2028-01,36,720.0,25920.0,22080.0
+A001,On-prem database server,Hardware,2028-02,37,720.0,26640.0,21360.0
+A001,On-prem database server,Hardware,2028-03,38,720.0,27360.0,20640.0
+A001,On-prem database server,Hardware,2028-04,39,720.0,28080.0,19920.0
+A001,On-prem database server,Hardware,2028-05,40,720.0,28800.0,19200.0
+A001,On-prem database server,Hardware,2028-06,41,720.0,29520.0,18480.0
+A001,On-prem database server,Hardware,2028-07,42,720.0,30240.0,17760.0
+A001,On-prem database server,Hardware,2028-08,43,720.0,30960.0,17040.0
+A001,On-prem database server,Hardware,2028-09,44,720.0,31680.0,16320.0
+A001,On-prem database server,Hardware,2028-10,45,720.0,32400.0,15600.0
+A001,On-prem database server,Hardware,2028-11,46,720.0,33120.0,14880.0
+A001,On-prem database server,Hardware,2028-12,47,720.0,33840.0,14160.0
+A001,On-prem database server,Hardware,2029-01,48,720.0,34560.0,13440.0
+A001,On-prem database server,Hardware,2029-02,49,720.0,35280.0,12720.0
+A001,On-prem database server,Hardware,2029-03,50,720.0,36000.0,12000.0
+A001,On-prem database server,Hardware,2029-04,51,720.0,36720.0,11280.0
+A001,On-prem database server,Hardware,2029-05,52,720.0,37440.0,10560.0
+A001,On-prem database server,Hardware,2029-06,53,720.0,38160.0,9840.0
+A001,On-prem database server,Hardware,2029-07,54,720.0,38880.0,9120.0
+A001,On-prem database server,Hardware,2029-08,55,720.0,39600.0,8400.0
+A001,On-prem database server,Hardware,2029-09,56,720.0,40320.0,7680.0
+A001,On-prem database server,Hardware,2029-10,57,720.0,41040.0,6960.0
+A001,On-prem database server,Hardware,2029-11,58,720.0,41760.0,6240.0
+A001,On-prem database server,Hardware,2029-12,59,720.0,42480.0,5520.0
+A001,On-prem database server,Hardware,2030-01,60,720.0,43200.0,4800.0
+A002,Edge gateway servers (x4),Hardware,2025-08,1,600.0,600.0,31400.0
+A002,Edge gateway servers (x4),Hardware,2025-09,2,600.0,1200.0,30800.0
+A002,Edge gateway servers (x4),Hardware,2025-10,3,600.0,1800.0,30200.0
+A002,Edge gateway servers (x4),Hardware,2025-11,4,600.0,2400.0,29600.0
+A002,Edge gateway servers (x4),Hardware,2025-12,5,600.0,3000.0,29000.0
+A002,Edge gateway servers (x4),Hardware,2026-01,6,600.0,3600.0,28400.0
+A002,Edge gateway servers (x4),Hardware,2026-02,7,600.0,4200.0,27800.0
+A002,Edge gateway servers (x4),Hardware,2026-03,8,600.0,4800.0,27200.0
+A002,Edge gateway servers (x4),Hardware,2026-04,9,600.0,5400.0,26600.0
+A002,Edge gateway servers (x4),Hardware,2026-05,10,600.0,6000.0,26000.0
+A002,Edge gateway servers (x4),Hardware,2026-06,11,600.0,6600.0,25400.0
+A002,Edge gateway servers (x4),Hardware,2026-07,12,600.0,7200.0,24800.0
+A002,Edge gateway servers (x4),Hardware,2026-08,13,600.0,7800.0,24200.0
+A002,Edge gateway servers (x4),Hardware,2026-09,14,600.0,8400.0,23600.0
+A002,Edge gateway servers (x4),Hardware,2026-10,15,600.0,9000.0,23000.0
+A002,Edge gateway servers (x4),Hardware,2026-11,16,600.0,9600.0,22400.0
+A002,Edge gateway servers (x4),Hardware,2026-12,17,600.0,10200.0,21800.0
+A002,Edge gateway servers (x4),Hardware,2027-01,18,600.0,10800.0,21200.0
+A002,Edge gateway servers (x4),Hardware,2027-02,19,600.0,11400.0,20600.0
+A002,Edge gateway servers (x4),Hardware,2027-03,20,600.0,12000.0,20000.0
+A002,Edge gateway servers (x4),Hardware,2027-04,21,600.0,12600.0,19400.0
+A002,Edge gateway servers (x4),Hardware,2027-05,22,600.0,13200.0,18800.0
+A002,Edge gateway servers (x4),Hardware,2027-06,23,600.0,13800.0,18200.0
+A002,Edge gateway servers (x4),Hardware,2027-07,24,600.0,14400.0,17600.0
+A002,Edge gateway servers (x4),Hardware,2027-08,25,600.0,15000.0,17000.0
+A002,Edge gateway servers (x4),Hardware,2027-09,26,600.0,15600.0,16400.0
+A002,Edge gateway servers (x4),Hardware,2027-10,27,600.0,16200.0,15800.0
+A002,Edge gateway servers (x4),Hardware,2027-11,28,600.0,16800.0,15200.0
+A002,Edge gateway servers (x4),Hardware,2027-12,29,600.0,17400.0,14600.0
+A002,Edge gateway servers (x4),Hardware,2028-01,30,600.0,18000.0,14000.0
+A002,Edge gateway servers (x4),Hardware,2028-02,31,600.0,18600.0,13400.0
+A002,Edge gateway servers (x4),Hardware,2028-03,32,600.0,19200.0,12800.0
+A002,Edge gateway servers (x4),Hardware,2028-04,33,600.0,19800.0,12200.0
+A002,Edge gateway servers (x4),Hardware,2028-05,34,600.0,20400.0,11600.0
+A002,Edge gateway servers (x4),Hardware,2028-06,35,600.0,21000.0,11000.0
+A002,Edge gateway servers (x4),Hardware,2028-07,36,600.0,21600.0,10400.0
+A002,Edge gateway servers (x4),Hardware,2028-08,37,600.0,22200.0,9800.0
+A002,Edge gateway servers (x4),Hardware,2028-09,38,600.0,22800.0,9200.0
+A002,Edge gateway servers (x4),Hardware,2028-10,39,600.0,23400.0,8600.0
+A002,Edge gateway servers (x4),Hardware,2028-11,40,600.0,24000.0,8000.0
+A002,Edge gateway servers (x4),Hardware,2028-12,41,600.0,24600.0,7400.0
+A002,Edge gateway servers (x4),Hardware,2029-01,42,600.0,25200.0,6800.0
+A002,Edge gateway servers (x4),Hardware,2029-02,43,600.0,25800.0,6200.0
+A002,Edge gateway servers (x4),Hardware,2029-03,44,600.0,26400.0,5600.0
+A002,Edge gateway servers (x4),Hardware,2029-04,45,600.0,27000.0,5000.0
+A002,Edge gateway servers (x4),Hardware,2029-05,46,600.0,27600.0,4400.0
+A002,Edge gateway servers (x4),Hardware,2029-06,47,600.0,28200.0,3800.0
+A002,Edge gateway servers (x4),Hardware,2029-07,48,600.0,28800.0,3200.0
+A003,Network switches,Hardware,2026-03,1,270.0,270.0,17730.0
+A003,Network switches,Hardware,2026-04,2,270.0,540.0,17460.0
+A003,Network switches,Hardware,2026-05,3,270.0,810.0,17190.0
+A003,Network switches,Hardware,2026-06,4,270.0,1080.0,16920.0
+A003,Network switches,Hardware,2026-07,5,270.0,1350.0,16650.0
+A003,Network switches,Hardware,2026-08,6,270.0,1620.0,16380.0
+A003,Network switches,Hardware,2026-09,7,270.0,1890.0,16110.0
+A003,Network switches,Hardware,2026-10,8,270.0,2160.0,15840.0
+A003,Network switches,Hardware,2026-11,9,270.0,2430.0,15570.0
+A003,Network switches,Hardware,2026-12,10,270.0,2700.0,15300.0
+A003,Network switches,Hardware,2027-01,11,270.0,2970.0,15030.0
+A003,Network switches,Hardware,2027-02,12,270.0,3240.0,14760.0
+A003,Network switches,Hardware,2027-03,13,270.0,3510.0,14490.0
+A003,Network switches,Hardware,2027-04,14,270.0,3780.0,14220.0
+A003,Network switches,Hardware,2027-05,15,270.0,4050.0,13950.0
+A003,Network switches,Hardware,2027-06,16,270.0,4320.0,13680.0
+A003,Network switches,Hardware,2027-07,17,270.0,4590.0,13410.0
+A003,Network switches,Hardware,2027-08,18,270.0,4860.0,13140.0
+A003,Network switches,Hardware,2027-09,19,270.0,5130.0,12870.0
+A003,Network switches,Hardware,2027-10,20,270.0,5400.0,12600.0
+A003,Network switches,Hardware,2027-11,21,270.0,5670.0,12330.0
+A003,Network switches,Hardware,2027-12,22,270.0,5940.0,12060.0
+A003,Network switches,Hardware,2028-01,23,270.0,6210.0,11790.0
+A003,Network switches,Hardware,2028-02,24,270.0,6480.0,11520.0
+A003,Network switches,Hardware,2028-03,25,270.0,6750.0,11250.0
+A003,Network switches,Hardware,2028-04,26,270.0,7020.0,10980.0
+A003,Network switches,Hardware,2028-05,27,270.0,7290.0,10710.0
+A003,Network switches,Hardware,2028-06,28,270.0,7560.0,10440.0
+A003,Network switches,Hardware,2028-07,29,270.0,7830.0,10170.0
+A003,Network switches,Hardware,2028-08,30,270.0,8100.0,9900.0
+A003,Network switches,Hardware,2028-09,31,270.0,8370.0,9630.0
+A003,Network switches,Hardware,2028-10,32,270.0,8640.0,9360.0
+A003,Network switches,Hardware,2028-11,33,270.0,8910.0,9090.0
+A003,Network switches,Hardware,2028-12,34,270.0,9180.0,8820.0
+A003,Network switches,Hardware,2029-01,35,270.0,9450.0,8550.0
+A003,Network switches,Hardware,2029-02,36,270.0,9720.0,8280.0
+A003,Network switches,Hardware,2029-03,37,270.0,9990.0,8010.0
+A003,Network switches,Hardware,2029-04,38,270.0,10260.0,7740.0
+A003,Network switches,Hardware,2029-05,39,270.0,10530.0,7470.0
+A003,Network switches,Hardware,2029-06,40,270.0,10800.0,7200.0
+A003,Network switches,Hardware,2029-07,41,270.0,11070.0,6930.0
+A003,Network switches,Hardware,2029-08,42,270.0,11340.0,6660.0
+A003,Network switches,Hardware,2029-09,43,270.0,11610.0,6390.0
+A003,Network switches,Hardware,2029-10,44,270.0,11880.0,6120.0
+A003,Network switches,Hardware,2029-11,45,270.0,12150.0,5850.0
+A003,Network switches,Hardware,2029-12,46,270.0,12420.0,5580.0
+A003,Network switches,Hardware,2030-01,47,270.0,12690.0,5310.0
+A003,Network switches,Hardware,2030-02,48,270.0,12960.0,5040.0
+A003,Network switches,Hardware,2030-03,49,270.0,13230.0,4770.0
+A003,Network switches,Hardware,2030-04,50,270.0,13500.0,4500.0
+A003,Network switches,Hardware,2030-05,51,270.0,13770.0,4230.0
+A003,Network switches,Hardware,2030-06,52,270.0,14040.0,3960.0
+A003,Network switches,Hardware,2030-07,53,270.0,14310.0,3690.0
+A003,Network switches,Hardware,2030-08,54,270.0,14580.0,3420.0
+A003,Network switches,Hardware,2030-09,55,270.0,14850.0,3150.0
+A003,Network switches,Hardware,2030-10,56,270.0,15120.0,2880.0
+A003,Network switches,Hardware,2030-11,57,270.0,15390.0,2610.0
+A003,Network switches,Hardware,2030-12,58,270.0,15660.0,2340.0
+A003,Network switches,Hardware,2031-01,59,270.0,15930.0,2070.0
+A003,Network switches,Hardware,2031-02,60,270.0,16200.0,1800.0
+A004,GPU training node,Hardware,2026-06,1,1500.0,1500.0,58500.0
+A004,GPU training node,Hardware,2026-07,2,1500.0,3000.0,57000.0
+A004,GPU training node,Hardware,2026-08,3,1500.0,4500.0,55500.0
+A004,GPU training node,Hardware,2026-09,4,1500.0,6000.0,54000.0
+A004,GPU training node,Hardware,2026-10,5,1500.0,7500.0,52500.0
+A004,GPU training node,Hardware,2026-11,6,1500.0,9000.0,51000.0
+A004,GPU training node,Hardware,2026-12,7,1500.0,10500.0,49500.0
+A004,GPU training node,Hardware,2027-01,8,1500.0,12000.0,48000.0
+A004,GPU training node,Hardware,2027-02,9,1500.0,13500.0,46500.0
+A004,GPU training node,Hardware,2027-03,10,1500.0,15000.0,45000.0
+A004,GPU training node,Hardware,2027-04,11,1500.0,16500.0,43500.0
+A004,GPU training node,Hardware,2027-05,12,1500.0,18000.0,42000.0
+A004,GPU training node,Hardware,2027-06,13,1500.0,19500.0,40500.0
+A004,GPU training node,Hardware,2027-07,14,1500.0,21000.0,39000.0
+A004,GPU training node,Hardware,2027-08,15,1500.0,22500.0,37500.0
+A004,GPU training node,Hardware,2027-09,16,1500.0,24000.0,36000.0
+A004,GPU training node,Hardware,2027-10,17,1500.0,25500.0,34500.0
+A004,GPU training node,Hardware,2027-11,18,1500.0,27000.0,33000.0
+A004,GPU training node,Hardware,2027-12,19,1500.0,28500.0,31500.0
+A004,GPU training node,Hardware,2028-01,20,1500.0,30000.0,30000.0
+A004,GPU training node,Hardware,2028-02,21,1500.0,31500.0,28500.0
+A004,GPU training node,Hardware,2028-03,22,1500.0,33000.0,27000.0
+A004,GPU training node,Hardware,2028-04,23,1500.0,34500.0,25500.0
+A004,GPU training node,Hardware,2028-05,24,1500.0,36000.0,24000.0
+A004,GPU training node,Hardware,2028-06,25,1500.0,37500.0,22500.0
+A004,GPU training node,Hardware,2028-07,26,1500.0,39000.0,21000.0
+A004,GPU training node,Hardware,2028-08,27,1500.0,40500.0,19500.0
+A004,GPU training node,Hardware,2028-09,28,1500.0,42000.0,18000.0
+A004,GPU training node,Hardware,2028-10,29,1500.0,43500.0,16500.0
+A004,GPU training node,Hardware,2028-11,30,1500.0,45000.0,15000.0
+A004,GPU training node,Hardware,2028-12,31,1500.0,46500.0,13500.0
+A004,GPU training node,Hardware,2029-01,32,1500.0,48000.0,12000.0
+A004,GPU training node,Hardware,2029-02,33,1500.0,49500.0,10500.0
+A004,GPU training node,Hardware,2029-03,34,1500.0,51000.0,9000.0
+A004,GPU training node,Hardware,2029-04,35,1500.0,52500.0,7500.0
+A004,GPU training node,Hardware,2029-05,36,1500.0,54000.0,6000.0
+A005,Billing platform (capitalised dev cost),Software,2026-04,1,2500.0,2500.0,87500.0
+A005,Billing platform (capitalised dev cost),Software,2026-05,2,2500.0,5000.0,85000.0
+A005,Billing platform (capitalised dev cost),Software,2026-06,3,2500.0,7500.0,82500.0
+A005,Billing platform (capitalised dev cost),Software,2026-07,4,2500.0,10000.0,80000.0
+A005,Billing platform (capitalised dev cost),Software,2026-08,5,2500.0,12500.0,77500.0
+A005,Billing platform (capitalised dev cost),Software,2026-09,6,2500.0,15000.0,75000.0
+A005,Billing platform (capitalised dev cost),Software,2026-10,7,2500.0,17500.0,72500.0
+A005,Billing platform (capitalised dev cost),Software,2026-11,8,2500.0,20000.0,70000.0
+A005,Billing platform (capitalised dev cost),Software,2026-12,9,2500.0,22500.0,67500.0
+A005,Billing platform (capitalised dev cost),Software,2027-01,10,2500.0,25000.0,65000.0
+A005,Billing platform (capitalised dev cost),Software,2027-02,11,2500.0,27500.0,62500.0
+A005,Billing platform (capitalised dev cost),Software,2027-03,12,2500.0,30000.0,60000.0
+A005,Billing platform (capitalised dev cost),Software,2027-04,13,2500.0,32500.0,57500.0
+A005,Billing platform (capitalised dev cost),Software,2027-05,14,2500.0,35000.0,55000.0
+A005,Billing platform (capitalised dev cost),Software,2027-06,15,2500.0,37500.0,52500.0
+A005,Billing platform (capitalised dev cost),Software,2027-07,16,2500.0,40000.0,50000.0
+A005,Billing platform (capitalised dev cost),Software,2027-08,17,2500.0,42500.0,47500.0
+A005,Billing platform (capitalised dev cost),Software,2027-09,18,2500.0,45000.0,45000.0
+A005,Billing platform (capitalised dev cost),Software,2027-10,19,2500.0,47500.0,42500.0
+A005,Billing platform (capitalised dev cost),Software,2027-11,20,2500.0,50000.0,40000.0
+A005,Billing platform (capitalised dev cost),Software,2027-12,21,2500.0,52500.0,37500.0
+A005,Billing platform (capitalised dev cost),Software,2028-01,22,2500.0,55000.0,35000.0
+A005,Billing platform (capitalised dev cost),Software,2028-02,23,2500.0,57500.0,32500.0
+A005,Billing platform (capitalised dev cost),Software,2028-03,24,2500.0,60000.0,30000.0
+A005,Billing platform (capitalised dev cost),Software,2028-04,25,2500.0,62500.0,27500.0
+A005,Billing platform (capitalised dev cost),Software,2028-05,26,2500.0,65000.0,25000.0
+A005,Billing platform (capitalised dev cost),Software,2028-06,27,2500.0,67500.0,22500.0
+A005,Billing platform (capitalised dev cost),Software,2028-07,28,2500.0,70000.0,20000.0
+A005,Billing platform (capitalised dev cost),Software,2028-08,29,2500.0,72500.0,17500.0
+A005,Billing platform (capitalised dev cost),Software,2028-09,30,2500.0,75000.0,15000.0
+A005,Billing platform (capitalised dev cost),Software,2028-10,31,2500.0,77500.0,12500.0
+A005,Billing platform (capitalised dev cost),Software,2028-11,32,2500.0,80000.0,10000.0
+A005,Billing platform (capitalised dev cost),Software,2028-12,33,2500.0,82500.0,7500.0
+A005,Billing platform (capitalised dev cost),Software,2029-01,34,2500.0,85000.0,5000.0
+A005,Billing platform (capitalised dev cost),Software,2029-02,35,2500.0,87500.0,2500.0
+A005,Billing platform (capitalised dev cost),Software,2029-03,36,2500.0,90000.0,0.0
+A006,FinOps dashboard (capitalised dev cost),Software,2026-10,1,1000.0,1000.0,35000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2026-11,2,1000.0,2000.0,34000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2026-12,3,1000.0,3000.0,33000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-01,4,1000.0,4000.0,32000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-02,5,1000.0,5000.0,31000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-03,6,1000.0,6000.0,30000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-04,7,1000.0,7000.0,29000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-05,8,1000.0,8000.0,28000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-06,9,1000.0,9000.0,27000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-07,10,1000.0,10000.0,26000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-08,11,1000.0,11000.0,25000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-09,12,1000.0,12000.0,24000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-10,13,1000.0,13000.0,23000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-11,14,1000.0,14000.0,22000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2027-12,15,1000.0,15000.0,21000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-01,16,1000.0,16000.0,20000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-02,17,1000.0,17000.0,19000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-03,18,1000.0,18000.0,18000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-04,19,1000.0,19000.0,17000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-05,20,1000.0,20000.0,16000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-06,21,1000.0,21000.0,15000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-07,22,1000.0,22000.0,14000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-08,23,1000.0,23000.0,13000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-09,24,1000.0,24000.0,12000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-10,25,1000.0,25000.0,11000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-11,26,1000.0,26000.0,10000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2028-12,27,1000.0,27000.0,9000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-01,28,1000.0,28000.0,8000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-02,29,1000.0,29000.0,7000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-03,30,1000.0,30000.0,6000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-04,31,1000.0,31000.0,5000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-05,32,1000.0,32000.0,4000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-06,33,1000.0,33000.0,3000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-07,34,1000.0,34000.0,2000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-08,35,1000.0,35000.0,1000.0
+A006,FinOps dashboard (capitalised dev cost),Software,2029-09,36,1000.0,36000.0,0.0
