@@ -3,3 +3,4 @@ numpy
 matplotlib
 tabulate
 openpyxl
+streamlit  # optional, only for dashboard/app.py
