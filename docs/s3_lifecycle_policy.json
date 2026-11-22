@@ -1,0 +1,22 @@
+{
+  "Rules": [
+    {
+      "ID": "logs-tiering-by-age",
+      "Status": "Enabled",
+      "Filter": { "Prefix": "logs/" },
+      "Transitions": [
+        { "Days": 30, "StorageClass": "STANDARD_IA" },
+        { "Days": 90, "StorageClass": "GLACIER" }
+      ],
+      "Expiration": { "Days": 730 },
+      "AbortIncompleteMultipartUpload": { "DaysAfterInitiation": 7 }
+    },
+    {
+      "ID": "noncurrent-version-cleanup",
+      "Status": "Enabled",
+      "Filter": { "Prefix": "" },
+      "NoncurrentVersionTransitions": [ { "NoncurrentDays": 30, "StorageClass": "GLACIER" } ],
+      "NoncurrentVersionExpiration": { "NoncurrentDays": 180 }
+    }
+  ]
+}
